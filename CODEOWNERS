@@ -1,0 +1,10 @@
+# Default owner for everything
+* @ckpark123
+
+# Test cases and rubrics require 2-person review (enforce via branch protection)
+/cases/ @ckpark123
+/rubrics/ @ckpark123
+
+# Source code owned by maintainer
+/src/ @ckpark123
+/.github/ @ckpark123

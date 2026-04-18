@@ -1,0 +1,18 @@
+{
+  "case_id": "so-003",
+  "category": "structured-output",
+  "input": {
+    "prompt": "Parse: active=true count=5",
+    "schema": {
+      "active": "boolean",
+      "count": "number"
+    }
+  },
+  "expected": {
+    "active": true,
+    "count": 5
+  },
+  "rubric_ref": "rubrics/structured-output.json",
+  "weight": 1,
+  "notes": "MVP seed case for structured-output. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

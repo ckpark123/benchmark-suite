@@ -1,0 +1,15 @@
+{
+  "case_id": "de-001",
+  "category": "data-extraction",
+  "input": {
+    "text": "Invoice #12345 dated 2025-03-14 for $1,250.00 from ACME Corp."
+  },
+  "expected": {
+    "invoice_number": "12345",
+    "amount_usd": 1250,
+    "vendor": "ACME Corp"
+  },
+  "rubric_ref": "rubrics/data-extraction.json",
+  "weight": 1,
+  "notes": "MVP seed case for data-extraction. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

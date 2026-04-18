@@ -1,0 +1,17 @@
+{
+  "case_id": "rs-001",
+  "category": "research-synthesis",
+  "input": {
+    "sources": [
+      "Paper A says X",
+      "Paper B contradicts X with Y"
+    ],
+    "question": "Is X true?"
+  },
+  "expected": {
+    "must_mention_conflict": true
+  },
+  "rubric_ref": "rubrics/research-synthesis.json",
+  "weight": 1,
+  "notes": "MVP seed case for research-synthesis. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

@@ -1,0 +1,17 @@
+{
+  "case_id": "cg-004",
+  "category": "code-generation",
+  "input": {
+    "task": "TypeScript: debounce function.",
+    "language": "typescript"
+  },
+  "expected": {
+    "must_contain": [
+      "debounce",
+      "setTimeout"
+    ]
+  },
+  "rubric_ref": "rubrics/code-generation.json",
+  "weight": 1,
+  "notes": "MVP seed case for code-generation. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

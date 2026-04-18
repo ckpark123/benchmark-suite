@@ -1,0 +1,17 @@
+{
+  "case_id": "ls-002",
+  "category": "legal-summarization",
+  "input": {
+    "document": "The Services Agreement obligates Vendor to deliver software milestones...",
+    "max_words": 80
+  },
+  "expected": {
+    "summary_contains": [
+      "milestone",
+      "deliver"
+    ]
+  },
+  "rubric_ref": "rubrics/legal-summarization.json",
+  "weight": 1,
+  "notes": "MVP seed case for legal-summarization. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

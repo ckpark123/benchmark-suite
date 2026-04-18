@@ -1,0 +1,20 @@
+{
+  "case_id": "so-004",
+  "category": "structured-output",
+  "input": {
+    "prompt": "Parse: items=[a,b,c]",
+    "schema": {
+      "items": "array"
+    }
+  },
+  "expected": {
+    "items": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  "rubric_ref": "rubrics/structured-output.json",
+  "weight": 1,
+  "notes": "MVP seed case for structured-output. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

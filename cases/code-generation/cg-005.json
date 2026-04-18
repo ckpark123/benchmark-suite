@@ -1,0 +1,17 @@
+{
+  "case_id": "cg-005",
+  "category": "code-generation",
+  "input": {
+    "task": "Python: read CSV with pandas.",
+    "language": "python"
+  },
+  "expected": {
+    "must_contain": [
+      "pd.read_csv",
+      "import pandas"
+    ]
+  },
+  "rubric_ref": "rubrics/code-generation.json",
+  "weight": 1,
+  "notes": "MVP seed case for code-generation. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

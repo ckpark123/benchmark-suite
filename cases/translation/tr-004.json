@@ -1,0 +1,17 @@
+{
+  "case_id": "tr-004",
+  "category": "translation",
+  "input": {
+    "text": "This is urgent.",
+    "source": "en",
+    "target": "de"
+  },
+  "expected": {
+    "must_contain": [
+      "dringend"
+    ]
+  },
+  "rubric_ref": "rubrics/translation.json",
+  "weight": 1,
+  "notes": "MVP seed case for translation. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

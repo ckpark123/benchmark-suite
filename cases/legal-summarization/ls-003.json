@@ -1,0 +1,17 @@
+{
+  "case_id": "ls-003",
+  "category": "legal-summarization",
+  "input": {
+    "document": "Plaintiff alleges breach of contract dated March 2023...",
+    "max_words": 50
+  },
+  "expected": {
+    "summary_contains": [
+      "breach",
+      "contract"
+    ]
+  },
+  "rubric_ref": "rubrics/legal-summarization.json",
+  "weight": 1,
+  "notes": "MVP seed case for legal-summarization. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

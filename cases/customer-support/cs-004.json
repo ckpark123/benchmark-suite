@@ -1,0 +1,13 @@
+{
+  "case_id": "cs-004",
+  "category": "customer-support",
+  "input": {
+    "ticket": "Cancel my plan immediately."
+  },
+  "expected": {
+    "intent": "churn_risk"
+  },
+  "rubric_ref": "rubrics/customer-support.json",
+  "weight": 1,
+  "notes": "MVP seed case for customer-support. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

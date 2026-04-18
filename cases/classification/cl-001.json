@@ -1,0 +1,18 @@
+{
+  "case_id": "cl-001",
+  "category": "classification",
+  "input": {
+    "text": "The quarterly earnings beat estimates.",
+    "taxonomy": [
+      "finance",
+      "sports",
+      "tech"
+    ]
+  },
+  "expected": {
+    "label": "finance"
+  },
+  "rubric_ref": "rubrics/classification.json",
+  "weight": 1,
+  "notes": "MVP seed case for classification. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

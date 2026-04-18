@@ -1,0 +1,14 @@
+{
+  "case_id": "de-003",
+  "category": "data-extraction",
+  "input": {
+    "text": "Dr. Smith, phone (555) 123-4567, office 123 Main St."
+  },
+  "expected": {
+    "name": "Dr. Smith",
+    "phone": "555-123-4567"
+  },
+  "rubric_ref": "rubrics/data-extraction.json",
+  "weight": 1,
+  "notes": "MVP seed case for data-extraction. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

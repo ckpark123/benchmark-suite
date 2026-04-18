@@ -1,0 +1,17 @@
+{
+  "case_id": "ls-001",
+  "category": "legal-summarization",
+  "input": {
+    "document": "This Mutual Non-Disclosure Agreement (\"Agreement\") is entered into as of Jan 1, 2025 between Party A and Party B...",
+    "max_words": 60
+  },
+  "expected": {
+    "summary_contains": [
+      "NDA",
+      "confidentiality"
+    ]
+  },
+  "rubric_ref": "rubrics/legal-summarization.json",
+  "weight": 1,
+  "notes": "MVP seed case for legal-summarization. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

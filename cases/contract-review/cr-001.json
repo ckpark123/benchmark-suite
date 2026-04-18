@@ -1,0 +1,15 @@
+{
+  "case_id": "cr-001",
+  "category": "contract-review",
+  "input": {
+    "contract": "This SaaS agreement contains unlimited liability on vendor side."
+  },
+  "expected": {
+    "flags": [
+      "unlimited_liability"
+    ]
+  },
+  "rubric_ref": "rubrics/contract-review.json",
+  "weight": 1,
+  "notes": "MVP seed case for contract-review. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

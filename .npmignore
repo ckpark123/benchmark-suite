@@ -1,0 +1,10 @@
+__tests__/
+src/
+scripts/
+tsconfig.json
+eslint.config.js
+.github/
+.gitignore
+*.test.ts
+*.tsbuildinfo
+coverage/

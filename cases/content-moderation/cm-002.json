@@ -1,0 +1,14 @@
+{
+  "case_id": "cm-002",
+  "category": "content-moderation",
+  "input": {
+    "content": "Buy cheap phones at totallylegit.example.com"
+  },
+  "expected": {
+    "policy": "spam",
+    "action": "remove"
+  },
+  "rubric_ref": "rubrics/content-moderation.json",
+  "weight": 1,
+  "notes": "MVP seed case for content-moderation. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

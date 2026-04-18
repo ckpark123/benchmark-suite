@@ -1,0 +1,20 @@
+{
+  "case_id": "rs-002",
+  "category": "research-synthesis",
+  "input": {
+    "sources": [
+      "S1: market 12B",
+      "S2: market 9B"
+    ],
+    "question": "Market size?"
+  },
+  "expected": {
+    "range": [
+      9,
+      12
+    ]
+  },
+  "rubric_ref": "rubrics/research-synthesis.json",
+  "weight": 1,
+  "notes": "MVP seed case for research-synthesis. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

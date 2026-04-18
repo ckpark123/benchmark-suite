@@ -1,0 +1,14 @@
+{
+  "case_id": "de-004",
+  "category": "data-extraction",
+  "input": {
+    "text": "Employee ID E-0042, start date 2024-08-01, department Engineering."
+  },
+  "expected": {
+    "employee_id": "E-0042",
+    "department": "Engineering"
+  },
+  "rubric_ref": "rubrics/data-extraction.json",
+  "weight": 1,
+  "notes": "MVP seed case for data-extraction. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "cm-004",
+  "category": "content-moderation",
+  "input": {
+    "content": "Free crypto giveaway, DM me your seed phrase."
+  },
+  "expected": {
+    "policy": "fraud",
+    "action": "remove"
+  },
+  "rubric_ref": "rubrics/content-moderation.json",
+  "weight": 1,
+  "notes": "MVP seed case for content-moderation. v0.1.0-rc.1 ships with 5/category; GitHub issues track expansion to 20/category."
+}

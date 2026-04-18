@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+*.tsbuildinfo
+.env
+.env.local
+benchlytix-results.json
+.DS_Store
+coverage/
