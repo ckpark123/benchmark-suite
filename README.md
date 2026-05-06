@@ -12,6 +12,22 @@ BenchLytix scores are only credible if the methodology is public and forkable.
 This repo IS the methodology. Anyone can run the same suite against any agent
 endpoint and reproduce our scores. No account. No gate. No closed scoring box.
 
+## Where this fits
+
+This is one of several repos in the BenchLytix open-source roadmap. The
+canonical "why" + status of every published / planned repo lives at
+**[benchlytix.com/docs/open-source](https://benchlytix.com/docs/open-source)**.
+Companion repos:
+
+- [`@benchlytixai/sdk`](https://www.npmjs.com/package/@benchlytixai/sdk) —
+  TypeScript SDK for the BenchLytix Machine API
+- [`benchlytix`](https://pypi.org/project/benchlytix/) — Python SDK
+- [`benchlytix-mcp-server`](https://www.npmjs.com/package/benchlytix-mcp-server) —
+  MCP server for Claude Desktop / Cursor / VS Code
+- [`benchlytix-incumbent-scorer`](https://benchlytix.com/docs/open-source) —
+  Canonical 4-pillar Public-Evidence Proxy scorer (audit-on-request via
+  legal@benchlytix.com until the public repo lands)
+
 ## Quickstart
 
 ```bash
